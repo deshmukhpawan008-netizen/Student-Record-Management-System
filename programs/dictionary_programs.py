@@ -44,3 +44,18 @@ average = total / len(student_marks)
 
 print("Total Marks:", total)
 print("Average Marks:", average)
+
+# Dictionary Program 4: Delete Data
+
+student = {
+    "roll_number": 104,
+    "name": "Sneha Kulkarni",
+    "department": "CSE AIML",
+    "email": "sneha@example.com"
+}
+
+print("\nOriginal student:", student)
+
+del student["email"]
+
+print("After deleting email:", student)
