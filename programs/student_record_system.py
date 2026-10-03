@@ -28,9 +28,6 @@ def search_student():
 
     print("Student not found!")
 
-add_student()
-search_student()
-
 def update_student():
     roll_number = int(input("Enter Roll Number to Update: "))
 
